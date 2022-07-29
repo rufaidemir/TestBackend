@@ -12,8 +12,6 @@
   "dependencies": {
     "apollo-server": "^2.20.0",
     "apollo-server-express": "^2.22.2",
-    "bcrypt": "^5.0.0",
-    "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "connect": "^3.7.0",
     "cors": "^2.8.5",
@@ -24,7 +22,6 @@
     "graphql-subscriptions": "^1.2.1",
     "graphql-tools": "^7.0.4",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.11.15",
     "nodemon": "^2.0.7",
     "socket.io": "^3.1.1",
     "subscriptions-transport-ws": "^0.9.18"

@@ -5,7 +5,7 @@ const { ApolloServer } = require('apollo-server');
 const { rootResolver } = require('./Graphql/Resolvers/Merge');
 const { mainSchema } = require('./Graphql/Schemas/Merge');
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 2500;
 const HOST = process.env.ENV === 'dev' ? 'localhost' : null
 
 
@@ -26,6 +26,6 @@ const apolloServer = new ApolloServer({
 });
 
 
-apolloServer.listen(PORT).then(({ url }) => {
+apolloServer.listen(PORT, HOST).then(({ url }) => {
   console.log(`🚀  Server ready at ${url}`);
-})
+})  
